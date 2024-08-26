@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/XO.ico">
+    <link rel="stylesheet" href="css/Index.css">
+    <script src="js/Index.js"></script>
+    <title>TRIS</title>
+</head>
+<body>
+    <header>
+        TRIS!
+    </header>
+    <main>
+        <div id="divScelta">
+            <p id="divTitle">Chi inizia?</p>
+            <div id="divBtn">
+                <button id="buttonSceltaX" onclick="sceltaInput(0)">X</button>
+                <button id="buttonSceltaO" onclick="sceltaInput(1)">O</button>
+            </div>
+        </div>
+        <div id="tabellaTris">
+            <table>
+                <tr>
+                    <td id="tdUpSx" onclick="input(1)"></td>
+                    <td id="tdUp" onclick="input(2)"></td>
+                    <td id="tdUpDx" onclick="input(3)"></td>
+                </tr>
+                <tr>
+                    <td id="tdMidSx" onclick="input(4)"></td>
+                    <td id="tdMid" onclick="input(5)"></td>
+                    <td id="tdMidDx" onclick="input(6)"></td>
+                </tr>
+                <tr>
+                    <td id="tdBotSx" onclick="input(7)"></td>
+                    <td id="tdBot" onclick="input(8)"></td>
+                    <td id="tdBotDx" onclick="input(9)"></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        © 2024 Rugolo Simone - Tutti i diritti sono riservati
+    </footer>
+</body>
+</html>

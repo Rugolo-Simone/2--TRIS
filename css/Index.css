@@ -1,0 +1,91 @@
+footer{
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(168, 156, 156);
+    position: absolute;
+    color: black;
+    height: 50px;
+    text-align: center;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    color: black;
+    background-color: rgb(168, 156, 156);
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#divScelta{
+    width: 100%;
+    text-align: center;
+}
+
+#tabellaTris{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+  
+table{
+    border-collapse: collapse;
+}
+  
+td{
+    border: 2px solid #000;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+}
+  
+td div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#tdUpSx{
+    border-top: 0px;
+    border-left: 0px;
+}
+
+#tdUp{
+    border-top: 0px;
+}
+
+#tdUpDx{
+    border-top: 0px;
+    border-right: 0px;
+}
+
+#tdMidSx{
+    border-left: 0px;
+}
+
+#tdMidDx{
+    border-right: 0px;
+}
+
+#tdBotSx{
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+#tdBot{
+    border-bottom: 0px;
+}
+
+#tdBotDx{
+    border-bottom: 0px;
+    border-right: 0px;
+}
